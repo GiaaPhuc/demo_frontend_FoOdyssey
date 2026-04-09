@@ -1,26 +1,21 @@
-# --- FoOdyssey Frontend Core Requirements ---
+# --- FoOdyssey Frontend Dependencies ---
 
-# Framework & Core
-next==14.2.3          # Framework chính (App Router)
-react==18.2.0         # Thư viện UI
-react-dom==18.2.0      # Render DOM cho React
+# Framework Core
+next>=14.2.0
+react>=18.2.0
+react-dom>=18.2.0
 
-# Giao diện & Styling (The "Beauty" Layer)
-tailwindcss==4.0.0     # Engine tạo style (Bản v4 mới nhất)
-@tailwindcss/postcss==4.0.0  # Kết nối Tailwind với PostCSS
-postcss==8.4.38        # Xử lý CSS
-autoprefixer==10.4.19  # Tự động thêm prefix cho trình duyệt
+# Styling & Design System (Tailwind v4)
+tailwindcss>=4.0.0
+@tailwindcss/postcss>=4.0.0
+postcss>=8.4.0
+autoprefixer>=10.4.0
 
-# Icons & Visuals (The "Lucide" Layer)
-lucide-react==0.368.0  # Bộ icon xịn Phúc yêu cầu (Search, Camera, v.v.)
-framer-motion==11.0.25 # Hiệu ứng animation, laser scan, card bay mượt mà
+# Icons & UI Components (Cực kỳ quan trọng)
+lucide-react>=0.368.0     # Bộ icon bạn cần (Search, Camera, Zap,...)
+framer-motion>=11.0.0     # Hiệu ứng quét laser & animation card
 
-# Utility & Logic (The "Brain" Layer)
-clsx==2.1.0            # Quản lý các class CSS phức tạp
-tailwind-merge==2.2.2  # Gộp class Tailwind không bị xung đột
-typescript==5.4.5      # Đảm bảo code chuẩn chỉnh, ít lỗi vặt
-
-# Development Tools
-eslint==8.57.0         # Kiểm tra lỗi code
-@types/node==20.12.7   # Type cho Node.js
-@types/react==18.2.79  # Type cho React
+# Utilities
+clsx>=2.1.0               # Quản lý class CSS
+tailwind-merge>=2.2.0     # Gộp class Tailwind
+typescript>=5.4.0         # Type safety
