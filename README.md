@@ -182,9 +182,9 @@ Dự án này được xây dựng để:
 
 # 👤 Thông tin thực hiện
 
-**Sinh viên:** Võ Gia Phúc - VNU-HCM University of Science
-**Project:** demo-frontend-FoOdyssey
-**Focus:** Frontend UI/UX + AI Simulation
+- **Sinh viên:** Võ Gia Phúc - VNU-HCM University of Science
+- **Project:** demo-frontend-FoOdyssey
+- **Focus:** Frontend UI/UX + AI Simulation
 
 ---
 
